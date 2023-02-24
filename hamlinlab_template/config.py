@@ -10,10 +10,6 @@ from config import (
     processed_data_dir,
     raw_data_dir
     )
-
-Note: Importing this module will change the location where matplotlib
-looks for style sheets.  So default styles will not be available unless
-you add them to mpl_config_dir.
 '''
 
 import pathlib
