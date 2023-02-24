@@ -346,6 +346,31 @@ files = [
 ]
 
 [[package]]
+name = "hamlinlab"
+version = "0.1.0"
+description = "Tools for common data analysis tasks in the Hamlin Lab"
+category = "main"
+optional = false
+python-versions = ">=3.9,<3.11"
+files = []
+develop = false
+
+[package.dependencies]
+ipympl = "^0.9.3"
+lmfit = "^1.1.0"
+matplotlib = "^3.7.0"
+numpy = "^1.24.2"
+pandas = "^1.5.3"
+scipy = "^1.10.1"
+sigfig = "^1.3.2"
+
+[package.source]
+type = "git"
+url = "github.com-jhamlin-ufl:jhamlin-ufl/hamlinlab.git"
+reference = "main"
+resolved_reference = "e7fed33a99e5a53a32bb48d3ff10a2279f1e9155"
+
+[[package]]
 name = "importlib-metadata"
 version = "6.0.0"
 description = "Read metadata from Python packages"
@@ -1483,4 +1508,4 @@ testing = ["flake8 (<5)", "func-timeout", "jaraco.functools", "jaraco.itertools"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.11"
-content-hash = "cc333edfbc8d474f33c6c14407c8b8a0dd6c8b8082911f44ed7e38ecf4c68ffe"
+content-hash = "5712daf48291f820040ae86455100c525a32cceb19ada3aa8a67ac6ee373535a"
