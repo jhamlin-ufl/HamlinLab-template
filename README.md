@@ -22,7 +22,8 @@ first you must [setup git ssh keys](#setting-up-git-ssh-keys) and [install poetr
     ```
 6. If you are going to use [VS Code](https://code.visualstudio.com/) to work
 with the Jupyterlab notebooks, you should launch vs code from the terminal
-(after you cd into the project directory) as follows:
+(after you cd into the project directory) as follows.  This will ensure
+that VS code is running inside of the environment that you just created.
     ```
     poetry run code
     ```
