@@ -13,9 +13,7 @@ ipympl = "^0.9.3"
 sigfig = "^1.3.2"
 matplotlib = "^3.7.0"
 lmfit = "^1.1.0"
-# If you use a setup with multiple accounts you may need e.g.:
-hamlinlab = {git = "github.com-jhamlin-ufl:jhamlin-ufl/hamlinlab.git", branch = "main"}
-#hamlinlab = {git = "github.com:jhamlin-ufl/hamlinlab.git", branch = "main"}
+hamlinlab = {git = "https://github.com/jhamlin-ufl/hamlinlab.git", branch = "main"}
 
 [tool.poetry.dev-dependencies]
 
