@@ -45,12 +45,13 @@ you should leave the username and password blank.
 
 2.  It may help to setup a git configuration in your home directory (`~/.gitconfig`).
 The contents can be as follows (enter your correct user name and email).
+NOTE: This may actually cause some problems with importing modules directly from git.
+So, for the time being I recommend skipping this step.
     ```
     # This is Git's per-user configuration file.
     [user]
     name = yourGitUsername
     email = yourGitEmailAddress
-    # Attempt to fix some additional problems
     [url "git@github.com-yourGitUserName:"]
         insteadOf = https://github.com/
     ```
